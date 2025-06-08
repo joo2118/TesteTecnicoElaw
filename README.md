@@ -3,7 +3,11 @@ Este é um teste técnico feito para a ELAW por João Victor Cerqueira, utilizan
 
 Os testes unitários podem ser rodados com o comando `dotnet test`.
 
-Para rodar o projeto, é necessário clonar e abrir o projeto no Visual Studio Code e criar um arquivo `launch.json` com a configuração abaixo. Em seguida, vá na aba 'Run and Debug' e rode a aplicação 'Web API Launch'. Será aberta uma aba com o endereço localhost, e a aplicação poderá ser testada pelo Swagger (ex: https://localhost:7187/swagger/index.html):
+Para rodar o projeto, é necessário clonar e abrir o projeto no Visual Studio Code.
+Em seguida, vá na aba 'Run and Debug' e rode a aplicação 'Web API Launch'.
+Será aberta uma aba com o endereço localhost, e a aplicação poderá ser testada pelo Swagger (ex: https://localhost:7187/swagger/index.html):
+
+**OBS**:  Conferir se o arquivo `launch.json` com a configuração abaixo está criado na pasta .vscode. 
 
 ```json
 {
