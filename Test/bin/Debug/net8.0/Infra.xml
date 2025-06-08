@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Infra</name>
+    </assembly>
+    <members>
+        <member name="M:Infra.Mapper.MappingExtensions.CreateValidatedReverseMap``2(AutoMapper.IMappingExpression{``0,``1})">
+            <summary>
+            Creates mapping from <typeparamref name="TDestination" /> to <typeparamref name="TSource"/>,
+            enabling validation so that <see cref="M:AutoMapper.MapperConfiguration.AssertConfigurationIsValid"/>
+            correctly identifies any missed reverse mappings.
+            This is the expected behavior, as described by the developer (https://github.com/AutoMapper/AutoMapper/issues/2327#issuecomment-332209154)
+            </summary>
+        </member>
+    </members>
+</doc>

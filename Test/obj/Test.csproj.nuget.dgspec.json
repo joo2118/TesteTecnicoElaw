@@ -1,0 +1,413 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/joaovcerqueira/TesteTecnicoElaw/TesteTecnicoElaw/Test/Test.csproj": {}
+  },
+  "projects": {
+    "/home/joaovcerqueira/TesteTecnicoElaw/TesteTecnicoElaw/Application/Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/joaovcerqueira/TesteTecnicoElaw/TesteTecnicoElaw/Application/Application.csproj",
+        "projectName": "Application",
+        "projectPath": "/home/joaovcerqueira/TesteTecnicoElaw/TesteTecnicoElaw/Application/Application.csproj",
+        "packagesPath": "/home/joaovcerqueira/.nuget/packages/",
+        "outputPath": "/home/joaovcerqueira/TesteTecnicoElaw/TesteTecnicoElaw/Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/joaovcerqueira/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/joaovcerqueira/TesteTecnicoElaw/TesteTecnicoElaw/Domain/Domain.csproj": {
+                "projectPath": "/home/joaovcerqueira/TesteTecnicoElaw/TesteTecnicoElaw/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[14.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/joaovcerqueira/TesteTecnicoElaw/TesteTecnicoElaw/Domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/joaovcerqueira/TesteTecnicoElaw/TesteTecnicoElaw/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/home/joaovcerqueira/TesteTecnicoElaw/TesteTecnicoElaw/Domain/Domain.csproj",
+        "packagesPath": "/home/joaovcerqueira/.nuget/packages/",
+        "outputPath": "/home/joaovcerqueira/TesteTecnicoElaw/TesteTecnicoElaw/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/joaovcerqueira/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/joaovcerqueira/TesteTecnicoElaw/TesteTecnicoElaw/Infra/Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/joaovcerqueira/TesteTecnicoElaw/TesteTecnicoElaw/Infra/Infra.csproj",
+        "projectName": "Infra",
+        "projectPath": "/home/joaovcerqueira/TesteTecnicoElaw/TesteTecnicoElaw/Infra/Infra.csproj",
+        "packagesPath": "/home/joaovcerqueira/.nuget/packages/",
+        "outputPath": "/home/joaovcerqueira/TesteTecnicoElaw/TesteTecnicoElaw/Infra/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/joaovcerqueira/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/joaovcerqueira/TesteTecnicoElaw/TesteTecnicoElaw/Application/Application.csproj": {
+                "projectPath": "/home/joaovcerqueira/TesteTecnicoElaw/TesteTecnicoElaw/Application/Application.csproj"
+              },
+              "/home/joaovcerqueira/TesteTecnicoElaw/TesteTecnicoElaw/Domain/Domain.csproj": {
+                "projectPath": "/home/joaovcerqueira/TesteTecnicoElaw/TesteTecnicoElaw/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[14.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "Swashbuckle.AspNetCore.Newtonsoft": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/joaovcerqueira/TesteTecnicoElaw/TesteTecnicoElaw/Test/Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/joaovcerqueira/TesteTecnicoElaw/TesteTecnicoElaw/Test/Test.csproj",
+        "projectName": "Test",
+        "projectPath": "/home/joaovcerqueira/TesteTecnicoElaw/TesteTecnicoElaw/Test/Test.csproj",
+        "packagesPath": "/home/joaovcerqueira/.nuget/packages/",
+        "outputPath": "/home/joaovcerqueira/TesteTecnicoElaw/TesteTecnicoElaw/Test/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/joaovcerqueira/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/joaovcerqueira/TesteTecnicoElaw/TesteTecnicoElaw/Application/Application.csproj": {
+                "projectPath": "/home/joaovcerqueira/TesteTecnicoElaw/TesteTecnicoElaw/Application/Application.csproj"
+              },
+              "/home/joaovcerqueira/TesteTecnicoElaw/TesteTecnicoElaw/Domain/Domain.csproj": {
+                "projectPath": "/home/joaovcerqueira/TesteTecnicoElaw/TesteTecnicoElaw/Domain/Domain.csproj"
+              },
+              "/home/joaovcerqueira/TesteTecnicoElaw/TesteTecnicoElaw/Infra/Infra.csproj": {
+                "projectPath": "/home/joaovcerqueira/TesteTecnicoElaw/TesteTecnicoElaw/Infra/Infra.csproj"
+              },
+              "/home/joaovcerqueira/TesteTecnicoElaw/TesteTecnicoElaw/WebApi/WebApi.csproj": {
+                "projectPath": "/home/joaovcerqueira/TesteTecnicoElaw/TesteTecnicoElaw/WebApi/WebApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.AspNetCore.TestHost": {
+              "target": "Package",
+              "version": "[8.0.15, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.12.0, )"
+            },
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/joaovcerqueira/TesteTecnicoElaw/TesteTecnicoElaw/WebApi/WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/joaovcerqueira/TesteTecnicoElaw/TesteTecnicoElaw/WebApi/WebApi.csproj",
+        "projectName": "WebApi",
+        "projectPath": "/home/joaovcerqueira/TesteTecnicoElaw/TesteTecnicoElaw/WebApi/WebApi.csproj",
+        "packagesPath": "/home/joaovcerqueira/.nuget/packages/",
+        "outputPath": "/home/joaovcerqueira/TesteTecnicoElaw/TesteTecnicoElaw/WebApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/joaovcerqueira/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/joaovcerqueira/TesteTecnicoElaw/TesteTecnicoElaw/Application/Application.csproj": {
+                "projectPath": "/home/joaovcerqueira/TesteTecnicoElaw/TesteTecnicoElaw/Application/Application.csproj"
+              },
+              "/home/joaovcerqueira/TesteTecnicoElaw/TesteTecnicoElaw/Infra/Infra.csproj": {
+                "projectPath": "/home/joaovcerqueira/TesteTecnicoElaw/TesteTecnicoElaw/Infra/Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
